@@ -1,0 +1,20 @@
+#myCard{
+    padding-top: 55px;
+    transform: none;
+}
+
+#card-scale-contain{
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    border: 1px solid transparent;
+    margin-bottom: 50px;
+}
+#card-scale{
+    width: 100%;
+    height: 300px;
+}
+#card-scale:hover{
+    transform: scale(1.1);
+    transition: 4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
